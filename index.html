@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gedachtenis 2026</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            width: 96%;
+            margin: 25px auto;
+            padding: 0;
+        }
+
+        .lied-titel {
+            margin: 24px 0 8px;
+            color: darkblue;
+        }
+
+        /* Partituur links, speler rechts */
+        .lied {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        /* Partituur */
+        .partituur {
+            flex: 0 1 800px;
+            min-width: 0;
+        }
+
+        .partituur img {
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+
+        /* Ruimte voor MP3 of MP4 */
+        .speler {
+            flex: 0 1 600px;
+            min-width: 0;
+        }
+
+        /* MP3-speler */
+        .speler audio {
+            display: block;
+            width: 350px;
+            height: 200px;
+            margin: 0;
+        }
+
+        /* MP4-video */
+        .speler video {
+            display: block;
+            width: 75%;
+            max-width: 600px;
+            height: auto;
+            margin: 0;
+        }
+
+        @media (max-width: 800px) {
+            .lied {
+                flex-direction: column;
+            }
+
+            .partituur,
+            .speler {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>UITVAART Monique Van den Abeele</h1>
+<h2>Sint-Barbarakerk te Maldegem</h2>
+<h4>Woensdag, 25 november 2026 </h4>
+<h4>Koorleidster: Myriam Veirman</h4>
+<h4>Koor: Sint-Barbara Koor</h4>
+<h4>De viering begint om 10u00</h4>
+<h4>Koorleden zingen in om <b>09u30</b> stipt</h4>
+
+<h3 class="lied-titel">NR01 — Requiem</h3>
+<h4>Koor zingt eerst het refrein. 
+    Dan zingt koorleider een strofe. 
+    Tenslotte zingt het koor opnieuw het refrein.</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR01_ZM001_Requiem.jpg" alt="Requiem"></div>
+    <div class="speler"><video controls>
+        <source src="NR01_ZM001_Requiem.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR02 — God heeft het eerste woord</h3>
+<h4>Koor zingt vier strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR02_ZM040_Godheeftheteerstewoord.jpg" alt="God heeft het eerste woord"></div>
+    <div class="speler"><video controls>
+        <source src="NR02_ZM040_Godheeftheteerstewoord.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR03 — Kyrie</h3>
+<div class="lied">
+    <div class="partituur"><img src="NR03_ZM007_Kyrie.png" alt="Kyrie"></div>
+    <div class="speler"><video controls>
+        <source src="NR03_ZM007_Kyrie.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR04 — Blijf mij nabij</h3>
+<h4>Koor zingt eerste drie strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR04_ZJ811_BlijfMijNabij.jpg" alt="Blijf mij nabij"></div>
+    <div class="speler"><video controls>
+        <source src="NR04_ZJ811_BlijfMijNabij.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR05 — Alleluia, uw woorden</h3>
+<h4>Koorleider zingt de tussenzang. Koor zingt Alleluia.</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR05_ZJ04h_AlleluiaUwwoorden.jpg" alt="Alleluia, uw woorden"></div>
+</div>
+
+<h3 class="lied-titel">NR06 — Lief Vrouwke</h3>
+<h4>Koor zingt eerste drie strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR06_ZMEnd_LiefVrouwke.png" alt="Lief Vrouwke"></div>
+    <div class="speler"><video controls>
+        <source src="NR06_ZMEnd_LiefVrouwke.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR07 — Sanctus</h3>
+<div class="lied">
+    <div class="partituur"><img src="NR07_ZM022_Sanctus.png" alt="Sanctus"></div>
+    <div class="speler"><video controls>
+        <source src="NR07_ZM022_Sanctus.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR09 — Agnus Dei</h3>
+<div class="lied">
+    <div class="partituur"><img src="NR09_ZM024_AgnusDei.png" alt="Agnus Dei"></div>
+    <div class="speler"><video controls>
+        <source src="NR09_ZM024_AgnusDei.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR10 — Zo vriendelijk en veilig</h3>
+<h4>Koor zingt eerste drie strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR10_ZJ530_ZoVriendelijkEnVeilig.jpg" alt="Zo vriendelijk en veilig"></div>
+    <div class="speler"><video controls>
+        <source src="NR10_ZJ530_ZoVriendelijkenVeilig.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR11 — Nader bij U, mijn God</h3>
+<h4>Koor zingt eerste drie strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR11_ZM051_NaderBijUMijnGod.png" alt="Nader bij U, mijn God"></div>
+    <div class="speler"><video controls>
+        <source src="NR11_ZM051_NaderBijUMijnGod.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+<h3 class="lied-titel">NR12 — Het mensenvolk ten paradijze</h3>
+<h4>Koor zingt eerste twee strofen</h4>
+<div class="lied">
+    <div class="partituur"><img src="NR12_ZJ919_HetMensenvolkTenPardijze.png" alt="Het mensenvolk ten paradijze"></div>
+    <div class="speler"><video controls>
+        <source src="NR12_ZJ919_HetMensenvolkTenParadijze.mp4" type="video/mp4">
+        Uw browser ondersteunt geen video.
+    </video></div>
+</div>
+
+</body>
+</html>
